@@ -11,13 +11,13 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/tyler-smith/go-bip39"
+	ethereum "github.com/zero-element/go-etdereum"
+	"github.com/zero-element/go-etdereum/accounts"
+	"github.com/zero-element/go-etdereum/common"
+	"github.com/zero-element/go-etdereum/common/hexutil"
+	"github.com/zero-element/go-etdereum/core/types"
+	"github.com/zero-element/go-etdereum/crypto"
 )
 
 // DefaultRootDerivationPath is the root path to which custom derivation endpoints

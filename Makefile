@@ -19,7 +19,7 @@ ensure:
 
 .PHONY: deps/fix
 deps/fix:
-	@cp -r "${GOPATH}/src/github.com/ethereum/go-ethereum/crypto/secp256k1/libsecp256k1" "vendor/github.com/ethereum/go-ethereum/crypto/secp256k1/"
+	@cp -r "${GOPATH}/src/github.com/zero-element/go-etdereum/crypto/secp256k1/libsecp256k1" "vendor/github.com/zero-element/go-etdereum/crypto/secp256k1/"
 
 .PHONY: run/example/1
 run/example/1:

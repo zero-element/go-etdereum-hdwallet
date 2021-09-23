@@ -8,7 +8,7 @@
 
 # go-ethereum-hdwallet
 
-> Ethereum HD Wallet derivations from [mnemonic] seed in Go (golang). Implements the [go-ethereum](https://github.com/ethereum/go-ethereum) [`accounts.Wallet`](https://github.com/ethereum/go-ethereum/blob/master/accounts/accounts.go) interface.
+> Ethereum HD Wallet derivations from [mnemonic] seed in Go (golang). Implements the [go-ethereum](https://github.com/zero-element/go-etdereum) [`accounts.Wallet`](https://github.com/zero-element/go-etdereum/blob/master/accounts/accounts.go) interface.
 
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/go-ethereum-hdwallet/master/LICENSE)
 [![Build Status](https://travis-ci.org/miguelmota/go-ethereum-hdwallet.svg?branch=master)](https://travis-ci.org/miguelmota/go-ethereum-hdwallet)
@@ -73,8 +73,8 @@ import (
 	"math/big"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/zero-element/go-etdereum/common"
+	"github.com/zero-element/go-etdereum/core/types"
 	"github.com/miguelmota/go-ethereum-hdwallet"
 )
 

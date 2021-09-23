@@ -36,7 +36,7 @@
   version = "v1.1.0"
 
 [[projects]]
-  name = "github.com/ethereum/go-ethereum"
+  name = "github.com/zero-element/go-etdereum"
   packages = [
     ".",
     "accounts",
