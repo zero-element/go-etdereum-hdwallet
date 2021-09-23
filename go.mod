@@ -1,4 +1,4 @@
-module github.com/miguelmota/go-ethereum-hdwallet
+module github.com/zero-element/go-etdereum-hdwallet
 
 go 1.12
 
